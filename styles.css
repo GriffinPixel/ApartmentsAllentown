@@ -7,11 +7,23 @@ body {
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
+h1 {
+    font-weight: 700;
+    padding-top: .5rem;
+}
 ul {
     padding-inline-start: 0;
 }
 li {
     list-style-type: none;
+}
+hr {
+    margin: 2rem 0 1.25rem;
+    background-color: #e9e9e9;
+    opacity: 1;
+}
+hr:not([size]) {
+    height: 2px;
 }
 .container {
     padding: 1.5rem 1.5rem 0;
@@ -132,6 +144,9 @@ a {
     }
     .apartment-list-detail-desc {
         width: 100%;
+    }
+    .container.title {
+        padding-top: 1rem;
     }
 }
 
