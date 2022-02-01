@@ -7,9 +7,6 @@ body {
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
-.h3, h3 {
-    margin-top: 1rem;
-}
 ul {
     padding-inline-start: 0;
 }
@@ -17,7 +14,30 @@ li {
     list-style-type: none;
 }
 .container {
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0;
+    display: flex;
+    /* position: relative; */
+}
+.index {
+    position: sticky;
+    width: 20%;
+}
+.index-content {
+    position: sticky;
+    top: 1.5rem;
+}
+.index-table {
+    margin-bottom: 0;
+}
+.index-item {
+    margin: .25rem 0;
+    /* list-style-type: disc; */
+}
+a {
+    text-decoration: none;
+}
+.content {
+    width: 80%;
 }
 .apartment-list-detail {
     display: flex;
@@ -41,11 +61,57 @@ li {
     display: block;
 }
 .apartment-list-detail-desc a {
-    margin-left: 4px;
+    /* margin-left: 4px; */
 }
 .apartment-list-detail-desc img {
     width: 100%;
     margin-top: 10px;
+}
+.apartment-imgs {
+    display: flex;
+}
+.apartment-imgs #carouselExampleIndicators,
+.apartment-imgs img {
+    width: 46%;
+}
+.distance {
+    display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+    .index {
+        width: 23%;
+    }
+    .content {
+        width: 77%;
+    }
+    .apartment-list-detail-title {
+        width: 25%;
+    }
+    .apartment-list-detail-desc {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container.title {
+        padding: 1.5rem 1.5rem 0.5rem;
+    }
+    .container {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    .index {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .index-item {
+        display: inline-block;
+        margin-right: 0.875rem;
+    }
+    .content {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 575px) {
