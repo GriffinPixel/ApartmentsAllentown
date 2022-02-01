@@ -1,31 +1,28 @@
 *,*::after,*::before {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
 }
-
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
-
 .h3, h3 {
     margin-top: 1rem;
 }
-
 ul {
     padding-inline-start: 0;
 }
-
 li {
     list-style-type: none;
+}
+.container {
+    padding: 1.5rem;
 }
 .apartment-list-detail {
     display: flex;
     margin: 0.5rem 0;
 }
-
 .apartment-list-detail-title {
     font-weight: 600;
     margin-right: .5rem;
@@ -52,9 +49,6 @@ li {
 }
 
 @media only screen and (max-width: 575px) {
-    .container {
-        padding: 1.5rem;
-    }
     .apartment-list-detail {
         flex-direction: column;
     }
