@@ -19,12 +19,17 @@ li {
     /* position: relative; */
 }
 .index {
-    position: sticky;
     width: 20%;
 }
 .index-content {
     position: sticky;
     top: 1.5rem;
+    background-color: #efefef;
+    background-color: hsla(0, 0%, 94%, 0.9);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 2rem;
+    height: fit-content;
 }
 .index-table {
     margin-bottom: 0;
@@ -105,9 +110,12 @@ a {
         width: 100%;
         margin-bottom: 1.5rem;
     }
+    .index-content {
+        margin-right: 0;
+    }
     .index-item {
         display: inline-block;
-        margin-right: 0.875rem;
+        margin: 0.125rem 0.875rem 0.125rem  0;
     }
     .content {
         width: 100%;
