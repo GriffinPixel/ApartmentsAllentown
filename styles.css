@@ -73,7 +73,7 @@ hr:not([size]) {
 }
 .griffinpixel-index-title {
     width: 28px;
-    height: fit-content;
+    height: auto;
     /* float: right; */
     /* float: left; */
     /* margin-right: .375rem; */
