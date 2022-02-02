@@ -233,6 +233,11 @@ a {
     border-bottom-right-radius: 14px;
 }
 
+.inline-icon {
+    font-size: .75rem;
+    margin-left: 2px;
+}
+
 @media only screen and (max-width: 1200px) {
     .index {
         width: 30%;
