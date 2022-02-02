@@ -123,7 +123,8 @@ hr:not([size]) {
 .index-content {
     background-color: #efefef;
     background-color: hsla(0, 0%, 94%, 0.9);
-    background-color: rgba(224, 224, 224, 0.8);
+    background-color: rgba(224, 224, 224, 0.9);
+    /* background-color: rgba(224, 224, 224, 1); */
     padding: 1.425rem;
     border-radius: 4px;
     border-radius: 16px;
