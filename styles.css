@@ -38,7 +38,7 @@ hr:not([size]) {
 }
 .GriffinPixel {
     width: 80px;
-    height: fit-content;
+    height: auto;
     margin-right: 0.25rem;
 }
 .index-title-wrapper {
@@ -48,7 +48,7 @@ hr:not([size]) {
 }
 .griffinpixel-index-title-2 {
     width: 28px;
-    height: fit-content;
+    height: auto;
     margin-left: .375rem;
     float: right;
 }
