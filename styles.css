@@ -38,6 +38,7 @@ hr:not([size]) {
 }
 .GriffinPixel {
     width: 80px;
+    width: 68px;
     height: auto;
     margin-right: 0.25rem;
 }
