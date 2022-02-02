@@ -323,13 +323,14 @@ a {
 
 @media only screen and (max-width: 575px) {
     .container {
-        padding: 0 0.875rem;
+        padding: 0 0.9375rem;
     }
     h1 {
         font-size: 1.675rem;
     }
     .apartment-list-detail {
         flex-direction: column;
+        margin: 0.75rem 0;
     }
     .apartment-list-detail-title {
         margin-right: 0;
@@ -350,7 +351,10 @@ a {
         height: 16.8px;
     }
     .index  {
-        margin-bottom: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+    .index-content {
+        padding: 1rem;
     }
     .index-item {
         display: block;
@@ -359,9 +363,8 @@ a {
         font-size: 1.125rem;
     }
     .apartment-list {
-        padding: 1.375rem 1.5rem;
-        padding: 1.2rem;
-        margin-bottom: 1.75rem;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
     }
     .apartment-list-images-carousel {
         margin-bottom: 1rem;
