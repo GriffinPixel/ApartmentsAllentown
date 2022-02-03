@@ -90,7 +90,7 @@ hr:not([size]) {
     display: flex;
 }
 .index {
-    width: 24%;
+    width: 25%;
 }
 .index-title {
     font-size: 1.25rem;
@@ -157,7 +157,7 @@ a {
     text-decoration: none;
 }
 .content {
-    width: 76%;
+    width: 75%;
 }
 .apartment-list {
     background-color: white;
