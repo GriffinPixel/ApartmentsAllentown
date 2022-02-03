@@ -404,6 +404,9 @@ a {
         margin: 0.1rem 0.875rem 0.1rem 0;
         /* margin: 0 0.875rem 0 0; */
     }
+    .index-item a {
+        font-size: 1rem;
+    }
     .index-content-title h4 {
         font-size: 1.275rem;
     }
@@ -436,7 +439,7 @@ a {
     }
     .apartment-list-detail {
         flex-direction: column;
-        margin: 0.75rem 0;
+        /* margin: 0.75rem 0; */
     }
     .apartment-list-detail-title {
         margin-right: 0;
