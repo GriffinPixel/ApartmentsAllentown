@@ -62,7 +62,8 @@ hr:not([size]) {
     background-color: #1d1c29;
     background-color: #5b5a63;
     background-color: #8e8ea1;
-    background-color: rgb(142 142 161 / 60%);
+    background-color: rgb(142 142 161 / 50%);
+    /* background-color: transparent; */
     /* background-color: rgb(142 142 161 / 100%); */
     /* background-color: #cdcdcd; */
     /* background-color: rgb(96 124 243 / 20%); */
@@ -114,7 +115,7 @@ hr:not([size]) {
     /* box-shadow: 4px 8px 30px rgb(0 0 0 / 30%); */
     /* box-shadow: 4px 8px 40px rgb(255 255 255 / 30%); */
     overflow: scroll;
-    max-height: 736px;
+    max-height: 734px;
     /* max-height: 680px; */
     /* max-height: 638px; */
 }
@@ -122,7 +123,7 @@ hr:not([size]) {
     position: sticky;
     top: 1.75rem;
     margin-right: 2rem;
-    margin-right: 2.5rem;
+    margin-right: 2.125rem;
 }
 .index-content-title {
     display: flex;
@@ -277,6 +278,8 @@ a {
 } */
 .apartment-list-images-carousel {
     width: 58%;
+    width: 56%;
+    /* width: 54%; */
 }
 .apartment-list-images .carousel-inner {
     border-top-left-radius: 14px;
@@ -293,10 +296,36 @@ a {
 }
 .google-map {
     width: 42%;
+    width: 44%;
+    /* width: 46%; */
     height: auto;
     border: 0;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
+}
+
+.back-to-top {
+    background-color: rgb(142 142 161 / 60%);
+    background-color: #e2e2e2;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+    border-radius: 8px;
+    width: 36px;
+    text-align: center;
+    position: fixed;
+    right: 1.75rem;
+    bottom: 1.75rem;
+    cursor: pointer;
+    box-shadow: 4px 8px 20px rgb(0 0 0 / 10%);
+    transition: all .2s ease;
+}
+.back-to-top:hover {
+    bottom: 2rem;
+    box-shadow: 4px 14px 40px rgb(0 0 0 / 20%);
+}
+.back-to-top:hover a {
+    color: #1f3b8d;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -487,6 +516,11 @@ a {
     }
     .apartment-list-title {
         margin-bottom: 0.875rem;
+    }
+    .back-to-top {
+        right: 1.5rem;
+        bottom: 1.5rem;
+        box-shadow: 4px 8px 20px rgb(0 0 0 / 20%);
     }
 }
 
